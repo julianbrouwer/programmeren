@@ -1,8 +1,15 @@
 def kwadraten_som(grondgetallen):
-    for getal in kwadraten_som:
-        return getal**2 + getal
+    som = int()
+    for getal in grondgetallen:
+        if getal > 0:
+            som = som + getal**2
+    return som
 
-print(kwadraten_som['5','6'])
+print(kwadraten_som([4,5,3,-81]))
+
+
+
+
 
 
 
