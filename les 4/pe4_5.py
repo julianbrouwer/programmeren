@@ -5,7 +5,7 @@ def kwadraten_som(grondgetallen):
             som = som + getal**2
     return som
 
-print(kwadraten_som([2,7,-6]))
+print(kwadraten_som([1,2,3]))
 
 
 
